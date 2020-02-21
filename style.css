@@ -99,3 +99,69 @@ body {
     margin: 20px auto 5px;
     margin-bottom: 6%;
 }
+
+
+
+
+
+
+
+.NEWS1 {
+    margin: 3%;
+}
+
+.NEWScard {
+    padding: 100px 10px 10px;
+    background-color: white;
+    border-radius: 5%;
+    box-shadow: 0px 0px 5px 2px rgba(0, 38, 255, 0.2);
+}
+
+.NEWScard img {
+    top: -20px;
+    position: absolute;
+    right: calc(63% - 60px);
+
+    width: 160px;
+    height: auto;
+    border-radius: 10%;
+
+    box-shadow: 0px 0px 5px 1px rgba(0, 38, 255, 0.2);
+}
+
+.NEWScard h3 {
+    font-size: 12px;
+    margin-top: 15px;
+    color: black;
+}
+
+.NEWScard h5 {
+    font-size: 15px;
+    margin-top: 15px;
+    color: black;
+}
+
+.NEWScard a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background: rgb(0, 183, 255);
+    border-radius: 40px;
+
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    width: auto;
+}
+
+.NEWScard a:hover {
+    background: rgb(255, 0, 0);
+    opacity: 0.8;
+    transition: 0.8s ease;
+}
+
+.NEWScard img:hover {
+    transition: 0.8s ease;
+    transform: scale(1.3);
+}
