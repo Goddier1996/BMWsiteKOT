@@ -241,3 +241,28 @@ body {
     top: 50%;
     transition: .5s ease;
 }
+
+
+
+
+
+.sports {
+    background: whitesmoke url(images/sport2.jpg) no-repeat center center;
+    background-size: cover;
+    height: calc(30vh - 20px);
+    width: 100%;
+    box-shadow: 0px 0px 10px 8px grey;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-bottom: 3%;
+}
+
+.sports p {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    text-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+}
