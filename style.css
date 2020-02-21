@@ -193,3 +193,51 @@ body {
     margin: 20px auto 5px;
     margin-bottom: 3%;
 }
+
+
+
+
+
+
+
+.Model {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    overflow: hidden;
+
+    margin-bottom: 6%;
+
+    height: auto;
+}
+
+.Model img {
+    border-radius: 10%;
+    width: 320px;
+    height: auto;
+}
+
+.Model h3 {
+    position: absolute;
+
+    top: -80px;
+
+    text-align: center;
+    width: 100%;
+    font-weight: bold;
+    color: black;
+    box-shadow: 0px 0px 8px 1px gray;
+    text-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+
+    background: white;
+    border-radius: 5%;
+    width: auto;
+    opacity: 0.7;
+}
+
+.Model:hover h3{
+    top: 50%;
+    transition: .5s ease;
+}
