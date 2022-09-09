@@ -1,6 +1,6 @@
-# Car side BMW (my first web side) - Html , Css 
+# Car site BMW (my first website) - Html , Css 
 
-Link Web Side - https://mini-bmw-site.netlify.app
+Link Website - https://mini-bmw-site.netlify.app
 
 # video :
  
